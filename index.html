@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>dwba4-semana-03-PT3020037</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section id='main'>
+      <section id="topo">
+        <div id="navbar-placeholder"></div>
+        <script>
+          fetch('navbar.html')
+              .then(response => response.text())
+              .then(data => {
+                  document.getElementById('navbar-placeholder').innerHTML = data;
+              });
+        </script>
+      </section>
+      <br>
+      <img src="images/Logo.jpg" />
+      <p><b>Cursos</b></p>
+      <ul>
+        <li><a href='ads.html'>Análise e Desenvolvimento de Sistemas</a></li>
+        <li><a href='ep.html'>Engenharia de Produção</a></li>
+        <li><a href='gti.html'>Gestão em Tecnologia da Informação</a></li>
+        <li><a href='l.html'>Letras</a></li>
+        <li><a href='gp.html'>Gestão Pública</a></li>
+      </ul>
+      <p><b>Eventos</b></p>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img width="380" height="225" src="images/SEJA_RARO.jpg" />
+      <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAniversário do IFSP - Pirituba - Palestra Augusto Aielo</p>
+      <h2>Sobre a Biblioteca</h2>
+      <img src="images/library.jpeg" />
+      <h2>Conheça os novos títulos disponíveis na nossa biblioteca</h2>
+      <p><h6>Publicado: Quarta-feira, 14 de agosto de 2019</h6></p>
+      <h2>Conheça o SUAP</h2>
+      <iframe width="560" height="300" src="https://www.youtube.com/watch?v=yVbOcB1ryh0"></iframe>
+      <br><br><br>
+      <a href="#topo"><img width="40" height="40" he src="images/MoveTop.png" /></a>|
+      <a href="https://www.facebook.com/ifsppirituba"><img width="40" height="40" src="images/facebook.png" /></a>
+      <footer><p>SP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p></footer>
+    </section>
+  </body>
+</html>
